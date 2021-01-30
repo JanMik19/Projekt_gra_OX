@@ -4,7 +4,7 @@ Moja wersja gry w kółko krzyżyk;
 
 Opis:
 
-klasa Gracz - przechowuje zmienną typu 'char'm która w grze będzie reprezentować symbol gracz - nas(człowieka :D) i komputer. Symbol jest z góry zainicjalizowany w jednej z funkcji klasy AI - klasy reprezentująca komputer - jest tam główna fukcjagry (taki game loop). 
+klasa Gracz - przechowuje zmienną typu 'char', która w grze będzie reprezentować symbol gracza - nas(człowieka :D) i komputera. Symbol jest z góry zainicjalizowany w jednej z funkcji klasy AI - klasy reprezentująca komputer - jest tam główna fukcjagry (taki game loop). 
 
 Klasy 'Czlowiek' i 'Komputer' są pochodnymi klasy 'Gracz', obie mają metody, które na swój sposób pozwalają dokonać poruszania się na planszy gry (plansza w grze jest reprezentowana jako dynamiczna tablica dwuwymiarowa);
 

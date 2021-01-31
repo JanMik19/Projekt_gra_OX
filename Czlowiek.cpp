@@ -22,7 +22,6 @@ int Czlowiek::get_ruch(Kolko_Krzyzyk& obj)
 		catch (const char err[])
 		{
 			std::cout << std::endl << err;
-			break;
 		}
 	}
 	return index - 1;

@@ -9,7 +9,7 @@ int Czlowiek::get_ruch(Kolko_Krzyzyk& obj)
 	int index;
 	bool ruch = false;
 
-	do // petla - jezeli mozna dokonac ruch to wykona sie petla
+	while (!ruch) // petla - jezeli mozna dokonac ruch to wykona sie petla
 	{
 		std::cout << std::endl << "Kolej gracza " << get_symbol() << ": ";
 		std::cin >> index;
@@ -30,6 +30,6 @@ int Czlowiek::get_ruch(Kolko_Krzyzyk& obj)
 		{
 			std::cout << std::endl << a; // lapanie wyjatku 
 		}
-	} while (!ruch && cin.good());
+	} 
 	return index - 1;
 }

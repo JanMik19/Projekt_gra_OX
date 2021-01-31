@@ -16,7 +16,7 @@ int Czlowiek::get_ruch(Kolko_Krzyzyk& obj)
 		
 		try
 		{
-			if (!cin.good())
+			if (!std::cin.good())
 			{
 				system("cls");
 				std::cout << std::endl << "Zly znak wstawiono!!! Koniec programu";
